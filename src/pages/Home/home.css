@@ -1,0 +1,51 @@
+
+
+.banner {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+
+.banner-title {
+    font-size: 5em;
+    font-family: 'Inter', sans-serif;
+    line-height: 70px;
+    font-weight: 800;
+}
+
+.future-text {
+    background: linear-gradient(90deg,#ed6292 25%,#ed5760 87.5%);
+    border-radius: 10px;
+    color: #fff;
+    padding: 1px 8px;
+    font-weight: 700;
+    font-size: .9em;
+    display: inline-flex;
+}
+
+@media only screen  and (max-width: 800px) {
+    .break-line {
+        display: none;
+    }
+
+    .banner {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
+    .banner-title {
+        font-size: 3em;
+        font-family: 'Inter', sans-serif;
+        line-height: 50px;
+        font-weight: 800;
+    }
+
+    .banner-desc {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+}

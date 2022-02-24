@@ -1,0 +1,27 @@
+.List-title {
+    font-size: 2.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.discover {
+    font-size: 2.5em;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .List-title {
+        font-size: 1.8em;
+    }
+
+    .discover {
+        font-size: 1.8em;
+    }
+
+    .list-meta {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
